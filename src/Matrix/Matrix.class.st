@@ -191,7 +191,7 @@ Matrix >> at: aPoint put: aNumber [
 
 { #category : #accessing }
 Matrix >> atRow: rowNumber [
-	"Reply with an entire row (array) of the matrix."
+	"Reply with an entire row (an array) of the matrix."
 	"Note that the foreign (C) type array is 0-based, in Pharo it is 1-based."
 	
 	(rowNumber between: 1 and: rowNumber)
